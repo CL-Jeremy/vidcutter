@@ -24,7 +24,7 @@ a = Analysis(['..\\..\\vidcutter\\__main__.py'],
                  # ('libmpv\\64\\d3dcompiler_43.dll', '.'),
                  # ('libmpv\\64\\d3dcompiler_47.dll', '.')
              ],
-             hiddenimports=[],
+             hiddenimports=['PyQt5.sip'],
              hookspath=[],
              runtime_hooks=[],
              excludes=['numpy'],
